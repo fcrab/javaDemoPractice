@@ -2,6 +2,8 @@ package info.kikiFcrab.RTTI;
 
 import java.util.*;
 
+import org.omg.CORBA.portable.IndirectionException;
+
 //利用RTTI创建类型数组
 
 public class RTTIdemo<T> {
@@ -25,12 +27,12 @@ public class RTTIdemo<T> {
 	/**
 	 * @param args
 	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		RTTIdemo<CountedInteger> fl=
-				new RTTIdemo<CountedInteger>(CountedInteger.class);
-		System.out.println(fl.create(15));
-	}
+//	public static void main(String[] args) {
+//		// TODO Auto-generated method stub
+//		RTTIdemo<CountedInteger> fl=
+//				new RTTIdemo<CountedInteger>(CountedInteger.class);
+//		System.out.println(fl.create(15));
+//	}
 
 }
 
