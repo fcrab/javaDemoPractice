@@ -23,6 +23,6 @@ public class DynamicProxy implements InvocationHandler {
 		Object result=method.invoke(obj, args);
 		return result;
 	}
-
+	
 	
 }

@@ -16,9 +16,9 @@ public class GenericsRandomList<T> {
 	/**
 	 * @param args
 	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		GenericsRandomList<String> rs=new GenericsRandomList<String>();
-	}
+//	public static void main(String[] args) {
+//		// TODO Auto-generated method stub
+//		GenericsRandomList<String> rs=new GenericsRandomList<String>();
+//	}
 
 }
