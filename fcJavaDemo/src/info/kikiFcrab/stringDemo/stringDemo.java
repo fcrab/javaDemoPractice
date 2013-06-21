@@ -10,13 +10,17 @@ public class stringDemo {
 	/**
 	 * @param args
 	 */
+	/*
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Pattern p=Pattern.compile("\\w+");	//±‡“Î
-		Matcher m=p.matcher("Evening is full of the linnet's wings");	//∆•≈‰	
+//		Pattern p=Pattern.compile("\\w+");	//±‡“Î
+//		Matcher m=p.matcher("Evening is full of the linnet's wings");	//∆•≈‰	
+		Pattern p=Pattern.compile("\\\\");
+		Matcher m=p.matcher("BFGu93luDF2m4Y9\\/NShJ6Qb2rRf2Wkweu18AvlOz");
 		while(m.find()){
 			System.out.println(m.start()+" "+m.end());		//∆÷πŒª÷√
 		}
 	}
 
+	*/
 }
